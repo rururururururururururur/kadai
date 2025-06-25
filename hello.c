@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-void say_hello() {
-  printf("Hello, Git version control!\n");
+// 名前を受け取り、挨拶を表示する関数
+void say_hello(const char* name) {
+  printf("Hello, %s!\n", name);
 }
 
 int main(void)
 {
-  say_hello();
+  say_hello("Git user");  // ここで名前を渡す
   return 0;
 }
