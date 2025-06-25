@@ -1,7 +1,11 @@
 #include <stdio.h>
 
+void say_hello() {
+  printf("Hello, Git version control!\n");
+}
+
 int main(void)
 {
-  printf("Hello, Git version control!\n");
+  say_hello();
   return 0;
 }
