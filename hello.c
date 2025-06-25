@@ -2,6 +2,6 @@
 
 int main(void)
 {
-  printf("hello world\n");
+  printf("Hello, Git version control!\n");
   return 0;
 }
